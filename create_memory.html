@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+    <script src="index.js"></script>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <label for="upload">File Upload:</label><br>
+        <input type="file" accept="image/*" onchange="loadFile(event)" id="upload"><br>
+        <img id="output" />
+        <br>
+        <label for="date">Date:</label><br>
+        <input type="date" id="date" name="date" required="required"><br>
+        <label for="mail">Email:</label><br>
+        <input type="email" id="mail" name="mail"><br>
+        <label for="pass">Password:</label><br>
+        <input type="password" id="password" name="password"><br>
+        <input type="submit" value="create">
+    </form>
+</body>
+<script>
+    var loadFile = function (event) {
+        var output = document.getElementById('output');
+        output.src = URL.createObjectURL(event.target.files[0]);
+        output.onload = function () {
+            URL.revokeObjectURL(output.src) // free memory
+        }
+    };
+</script>
+
+</html>
