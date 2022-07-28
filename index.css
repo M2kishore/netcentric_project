@@ -18,7 +18,7 @@ select {
 
 input[type=submit] {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: #4DB6AC;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -28,7 +28,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #2ab4a6;
 }
 
 div {
@@ -38,7 +38,10 @@ div {
 }
 
 img {
-    max-width: 180px;
+    margin: 10px;
+    max-width: 100px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
 }
 
 /*
