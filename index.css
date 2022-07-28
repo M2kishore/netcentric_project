@@ -84,3 +84,9 @@ focus {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
 }
+
+ul {
+    list-style-type: square;
+    list-style-position: outside;
+    list-style-image: none;
+}
