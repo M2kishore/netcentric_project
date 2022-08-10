@@ -44,12 +44,14 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 20px;
 }
+
 output {
     margin: 10px;
     max-width: 100px;
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+
 /*
 Form date css
 */
@@ -99,13 +101,21 @@ ul {
 
 form {
     padding-top: 1rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+@media screen and (max-width: 720px) {
+    form {
+        padding-top: 1rem;
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
 }
 
 @media screen and (max-width: 600px) {
     form {
-        padding: 0.5em;
+        padding: 1em;
     }
 }
 
@@ -152,7 +162,7 @@ form {
     width: 100%;
 }
 
-.card .front img{
+.card .front img {
     width: 100%;
     height: 15vw;
     object-fit: contain;
@@ -252,5 +262,60 @@ form {
 
     .card {
         height: 260px;
+    }
+}
+
+/* Top nav */
+
+.topnav {
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #222;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a.active {
+    background-color: #4DB6AC;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
     }
 }
