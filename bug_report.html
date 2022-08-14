@@ -14,8 +14,8 @@
 
 <body>
     <div class="topnav" id="topnav">
-        <a href="./dashboard.html">dashboard</a>
-        <a href="./create_memory.html">Create Memory</a>
+        <a href="./dashboard.html">Dashboard</a>
+        <a href="./feature_request.html">Feature Request</a>
         <a href="./bug_report.html" class="active">Report Bug</a>
         <a href="javascript:void(0);" class="icon" onclick="openNavItems()">
             <i class="fa fa-bars"></i>
@@ -27,17 +27,38 @@
         <input type="text" id="name" name="name"><br>
         <label for="mail">Email:</label><br>
         <input type="email" id="mail" name="mail"><br>
-        
-        <label for="bug">Report Bug:</label><br>
-        <textarea id="bug" name="bug" rows="4" cols="50"></textarea>
-        <label for="bug">Report Bug:</label><br>
-        <textarea id="bug" name="bug" rows="4" cols="50"></textarea>
-        <label for="bug">Report Bug:</label><br>
-        <textarea id="bug" name="bug" rows="4" cols="50"></textarea>
-        <label for="bug">Report Bug:</label><br>
-        <textarea id="bug" name="bug" rows="4" cols="50"></textarea>
+        <label for="bug_link">Provide the link where the bug occoured?</label><br>
+        <input type="url" id="bug_link" name="bug_link"><br>
+        <label for="what_you_did">What did you do?</label><br>
+        <textarea id="what_you_did" name="what_you_did" rows="4" cols="50"></textarea>
+        <label for="what_is_expected">What is the expected outcome?</label><br>
+        <textarea id="what_is_expected" name="what_is_expected" rows="4" cols="50"></textarea>
+        <label for="what_is_actual">What was the actual outcome?</label><br>
+        <textarea id="what_is_actual" name="what_is_actual" rows="4" cols="50"></textarea>
+        <label for="screenshot">Screenshot:</label><br>
+        <div class="screenshot"><input type="file" accept="image/*" onchange="loadFile(event)" id="upload"><br></div>
+        <img id="output" width="200rem" />
+        <br>
+        <label for="browser">Browser</label>
+
+        <select id="browser" name="browser">
+            <option value="chrome">Chrome</option>
+            <option value="firefox">Firefox</option>
+            <option value="safari">Safari</option>
+            <option value="edge">Edge</option>
+            <option value="opera">Opera</option>
+        </select>
         <input type="submit" value="Submit">
     </form>
 </body>
+<script>
+    var loadFile = function (event) {
+        var output = document.getElementById('output');
+        output.src = URL.createObjectURL(event.target.files[0]);
+        output.onload = function () {
+            URL.revokeObjectURL(output.src) // free memory
+        }
+    };
+</script>
 
 </html>

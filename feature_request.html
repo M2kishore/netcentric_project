@@ -14,35 +14,36 @@
 
 <body>
     <div class="topnav" id="topnav">
-        <a href="./dashboard.html">dashboard</a>
-        <a href="./create_memory.html" class="active">Create Memory</a>
+        <a href="./dashboard.html">Dashboard</a>
+        <a href="./feature_request.html" class="active">Feature Request</a>
         <a href="./bug_report.html">Report Bug</a>
         <a href="javascript:void(0);" class="icon" onclick="openNavItems()">
             <i class="fa fa-bars"></i>
         </a>
     </div>
     <form>
-        <h1>Create Memory</h1>
-        <label for="upload">File Upload:</label><br>
-        <div class="image_preview"><input type="file" accept="image/*" onchange="loadFile(event)" id="upload"><br></div>
+        <h1>Feature Request</h1>
+        <!-- <label for="date">Date:</label><br>
+        <input type="date" id="date" name="date" required="required"><br> -->
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="mail">Email:</label><br>
+        <input type="email" id="mail" name="mail"><br>
+        <label for="feature_name">Feature Request Name:</label><br>
+        <input type="text" id="feature_name" name="feature_name"><br>
+        <label for="feature_description">Detailed Description:</label><br>
+        <textarea id="feature_description" name="feature_description" rows="4" cols="50"></textarea>
+        <label for="category">Category</label>
+        <select id="category" name="category">
+            <option value="ui/ux">UI/UX</option>
+            <option value="integration">Integration</option>
+            <option value="bug_report">Bug Report</option>
+            <option value="other">Other</option>
+        </select>
+        <label for="attachment">Attachment:</label><br>
+        <div class="attachment"><input type="file" accept="image/*" onchange="loadFile(event)" id="upload"><br></div>
         <img id="output" width="200rem" />
         <br>
-        <label for="date">Date:</label><br>
-        <input type="date" id="date" name="date" required="required"><br>
-        <label for="title">Title:</label><br>
-        <input type="text" id="title" name="title"><br>
-        <label for="content">Content:</label><br>
-        <textarea id="content" name="content" rows="4" cols="50">
-        </textarea>
-        <label for="rating">Rating</label>
-        
-        <select id="rating" name="rating">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-        </select>
         <input type="submit" value="create">
     </form>
 </body>
