@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<!DOCTYPE login SYSTEM "login.dtd">
+<login>
+    <usermail id="usermail"></usermail>
+    <password id="password"></password>
+</login>

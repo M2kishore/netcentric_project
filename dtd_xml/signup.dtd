@@ -1,0 +1,6 @@
+<!ELEMENT register (name,email,password)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ATTLIST email id CDATA #REQUIRED>
+<!ATTLIST password id CDATA #REQUIRED>

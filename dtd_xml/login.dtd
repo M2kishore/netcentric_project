@@ -1,0 +1,5 @@
+<!ELEMENT login (usermail,password)>
+<!ELEMENT usermail (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ATTLIST usermail id CDATA #REQUIRED>
+<!ATTLIST password id CDATA #IMPLIED>

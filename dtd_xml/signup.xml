@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!DOCTYPE register SYSTEM "signup.dtd">
+<register>
+    <name></name>
+    <email id="email">kishoremeenakshi2001@gmail.com</email>
+    <password id="password">sdfghjk</password>
+</register>
