@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="bug.xslt"?>
+<?xml-stylesheet href="bootstrap.min.css" type="text/css"?>
+<bugs>
+  <bug>
+    <ticket>
+      <name>Kaveeshwar</name>
+      <mail>kaveesh2001@gmail.com</mail>
+      <bug_link>https://www.google.com/</bug_link>
+      <what_you_did>tried to connect to internet</what_you_did>
+      <what_is_expected>display the webpage</what_is_expected>
+      <what_is_actual>error 404 detected</what_is_actual>
+      <is_screenshot>no</is_screenshot>
+      <browser>Opera</browser>
+    </ticket>
+    <internal>
+      <id>1</id>
+      <title>network error</title>
+      <description>404 error in /posts</description>
+      <is_bug>yes</is_bug>
+      <assigned_to>Rahul</assigned_to>
+      <priority>0</priority>
+      <status>complete</status>
+    </internal>
+  </bug>
+  <bug>
+    <ticket>
+      <name>Kaveeshwar</name>
+      <mail>kaveesh2001@gmail.com</mail>
+      <bug_link>https://www.google.com/</bug_link>
+      <what_you_did>tried to connect to internet</what_you_did>
+      <what_is_expected>display the webpage</what_is_expected>
+      <what_is_actual>error 404 detected</what_is_actual>
+      <is_screenshot>no</is_screenshot>
+      <browser>Opera</browser>
+    </ticket>
+    <internal>
+      <id>2</id>
+      <title>network error</title>
+      <description>404 error in /posts</description>
+      <is_bug>yes</is_bug>
+      <assigned_to>Rahul</assigned_to>
+      <priority>1</priority>
+      <status>pending</status>
+    </internal>
+  </bug>
+  <bug>
+    <ticket>
+      <name>Kaveeshwar</name>
+      <mail>kaveesh2001@gmail.com</mail>
+      <bug_link>https://www.google.com/</bug_link>
+      <what_you_did>tried to connect to internet</what_you_did>
+      <what_is_expected>display the webpage</what_is_expected>
+      <what_is_actual>error 404 detected</what_is_actual>
+      <is_screenshot>no</is_screenshot>
+      <browser>Opera</browser>
+    </ticket>
+    <internal>
+      <id>3</id>
+      <title>network error</title>
+      <description>404 error in /posts</description>
+      <is_bug>yes</is_bug>
+      <assigned_to>Rahul</assigned_to>
+      <priority>2</priority>
+      <status>todo</status>
+    </internal>
+  </bug>
+</bugs>
