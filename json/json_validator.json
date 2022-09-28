@@ -1,0 +1,271 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "bugs": {
+        "type": "object",
+        "properties": {
+          "bug": {
+            "type": "array",
+            "items": [
+              {
+                "type": "object",
+                "properties": {
+                  "ticket": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "mail": {
+                        "type": "string"
+                      },
+                      "bug_link": {
+                        "type": "string"
+                      },
+                      "what_you_did": {
+                        "type": "string"
+                      },
+                      "what_is_expected": {
+                        "type": "string"
+                      },
+                      "what_is_actual": {
+                        "type": "string"
+                      },
+                      "is_screenshot": {
+                        "type": "string"
+                      },
+                      "browser": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "name",
+                      "mail",
+                      "bug_link",
+                      "what_you_did",
+                      "what_is_expected",
+                      "what_is_actual",
+                      "is_screenshot",
+                      "browser"
+                    ]
+                  },
+                  "internal": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "integer"
+                      },
+                      "title": {
+                        "type": "string"
+                      },
+                      "description": {
+                        "type": "string"
+                      },
+                      "is_bug": {
+                        "type": "string"
+                      },
+                      "assigned_to": {
+                        "type": "string"
+                      },
+                      "priority": {
+                        "type": "integer"
+                      },
+                      "status": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "id",
+                      "title",
+                      "description",
+                      "is_bug",
+                      "assigned_to",
+                      "priority",
+                      "status"
+                    ]
+                  }
+                },
+                "required": [
+                  "ticket",
+                  "internal"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "ticket": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "mail": {
+                        "type": "string"
+                      },
+                      "bug_link": {
+                        "type": "string"
+                      },
+                      "what_you_did": {
+                        "type": "string"
+                      },
+                      "what_is_expected": {
+                        "type": "string"
+                      },
+                      "what_is_actual": {
+                        "type": "string"
+                      },
+                      "is_screenshot": {
+                        "type": "string"
+                      },
+                      "browser": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "name",
+                      "mail",
+                      "bug_link",
+                      "what_you_did",
+                      "what_is_expected",
+                      "what_is_actual",
+                      "is_screenshot",
+                      "browser"
+                    ]
+                  },
+                  "internal": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "integer"
+                      },
+                      "title": {
+                        "type": "string"
+                      },
+                      "description": {
+                        "type": "string"
+                      },
+                      "is_bug": {
+                        "type": "string"
+                      },
+                      "assigned_to": {
+                        "type": "string"
+                      },
+                      "priority": {
+                        "type": "integer"
+                      },
+                      "status": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "id",
+                      "title",
+                      "description",
+                      "is_bug",
+                      "assigned_to",
+                      "priority",
+                      "status"
+                    ]
+                  }
+                },
+                "required": [
+                  "ticket",
+                  "internal"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "ticket": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "mail": {
+                        "type": "string"
+                      },
+                      "bug_link": {
+                        "type": "string"
+                      },
+                      "what_you_did": {
+                        "type": "string"
+                      },
+                      "what_is_expected": {
+                        "type": "string"
+                      },
+                      "what_is_actual": {
+                        "type": "string"
+                      },
+                      "is_screenshot": {
+                        "type": "string"
+                      },
+                      "browser": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "name",
+                      "mail",
+                      "bug_link",
+                      "what_you_did",
+                      "what_is_expected",
+                      "what_is_actual",
+                      "is_screenshot",
+                      "browser"
+                    ]
+                  },
+                  "internal": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "integer"
+                      },
+                      "title": {
+                        "type": "string"
+                      },
+                      "description": {
+                        "type": "string"
+                      },
+                      "is_bug": {
+                        "type": "string"
+                      },
+                      "assigned_to": {
+                        "type": "string"
+                      },
+                      "priority": {
+                        "type": "integer"
+                      },
+                      "status": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "id",
+                      "title",
+                      "description",
+                      "is_bug",
+                      "assigned_to",
+                      "priority",
+                      "status"
+                    ]
+                  }
+                },
+                "required": [
+                  "ticket",
+                  "internal"
+                ]
+              }
+            ]
+          }
+        },
+        "required": [
+          "bug"
+        ]
+      }
+    },
+    "required": [
+      "bugs"
+    ]
+  }

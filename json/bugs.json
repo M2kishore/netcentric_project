@@ -1,0 +1,69 @@
+{
+  "bugs": {
+    "bug": [
+      {
+        "ticket": {
+          "name": "Kaveeshwar",
+          "mail": "kaveesh2001@gmail.com",
+          "bug_link": "https://www.google.com/",
+          "what_you_did": "tried to connect to internet",
+          "what_is_expected": "display the webpage",
+          "what_is_actual": "error 404 detected",
+          "is_screenshot": "no",
+          "browser": "Opera"
+        },
+        "internal": {
+          "id": 1,
+          "title": "network error",
+          "description": "404 error in /posts",
+          "is_bug": "yes",
+          "assigned_to": "Rahul",
+          "priority": 0,
+          "status": "complete"
+        }
+      },
+      {
+        "ticket": {
+          "name": "Kaveeshwar",
+          "mail": "kaveesh2001@gmail.com",
+          "bug_link": "https://www.google.com/",
+          "what_you_did": "tried to connect to internet",
+          "what_is_expected": "display the webpage",
+          "what_is_actual": "error 404 detected",
+          "is_screenshot": "no",
+          "browser": "Opera"
+        },
+        "internal": {
+          "id": 2,
+          "title": "network error",
+          "description": "404 error in /posts",
+          "is_bug": "yes",
+          "assigned_to": "Rahul",
+          "priority": 1,
+          "status": "pending"
+        }
+      },
+      {
+        "ticket": {
+          "name": "Kaveeshwar",
+          "mail": "kaveesh2001@gmail.com",
+          "bug_link": "https://www.google.com/",
+          "what_you_did": "tried to connect to internet",
+          "what_is_expected": "display the webpage",
+          "what_is_actual": "error 404 detected",
+          "is_screenshot": "no",
+          "browser": "Opera"
+        },
+        "internal": {
+          "id": 3,
+          "title": "network error",
+          "description": "404 error in /posts",
+          "is_bug": "yes",
+          "assigned_to": "Rahul",
+          "priority": 2,
+          "status": "todo"
+        }
+      }
+    ]
+  }
+}
